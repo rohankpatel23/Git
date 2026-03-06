@@ -6,7 +6,7 @@ import tensorflow_datasets as tfds
 
 
 #Added camera functionality via openCV library
-#Close video by pressing 'q' key
+#Close video by pressing 't' key
 import cv2
 
 cam = cv2.VideoCapture(0, cv2.CAP_DSHOW)
